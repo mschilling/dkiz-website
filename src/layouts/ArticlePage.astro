@@ -12,13 +12,15 @@ interface Props {
   description?: string;
   keywords?: string;
   alt?: string;
+  ogImage?: string;
 }
-const { title, description, keywords, publishDate, author, heroImage, alt } = Astro.props;
+const { title, description, keywords, publishDate, author, heroImage, alt, ogImage } = Astro.props;
 ---
 <Page
   title={title}
   description={description}
   keywords={keywords}
+  ogImage={ogImage}
 >
 
   <article class="content">
