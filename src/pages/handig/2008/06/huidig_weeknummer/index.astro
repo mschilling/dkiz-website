@@ -1,0 +1,30 @@
+---
+import Page from '../../../../../layouts/Page.astro';
+---
+<Page
+  title="Weeknummer - Het nummer van deze week"
+  description="Wat is het weeknummer van deze week? Deze pagina toont altijd het huidige weeknummer. Bepaal het huidige weeknummer snel en gemakkelijk."
+  keywords="weeknummer, week nummer, weeknummer uitrekenen, weeknummer bepalen, dit weeknummer, weeknummmer deze week"
+>
+  <h2>Weeknummer deze week</h2>
+  Wat is het huidige <strong>weeknummer</strong>? Deze pagina toont altijd het actuele <strong>weeknummer</strong>.<br /><br />
+  <weeknumber-calculator></weeknumber-calculator>
+  <h2>Hoe te gebruiken?</h2>
+  Stap 1: voer bij het veld <strong>Datum</strong> een geldige datum in.<br />
+  Stap 2: druk op <strong>Start</strong>.<br /><br />
+  Je kan ook het <strong>weeknummer bepalen</strong> van een week die in de toekomst of in het verleden ligt.<br />
+  <h2>Wist u dat?</h2>
+  Het <strong>weeknummer</strong> is het volgnummer dat een week in een jaar krijgt.<br /><br />
+  Volgens ISO 8601 en NEN 2772 is de eerste week van het jaar die welke vier of meer
+  dagen van dat jaar bevat. Omdat, volgens NEN 2772, de eerste dag een maandag is,
+  komt het erop neer dat week 1 de week is, waarin de eerste donderdag van dat jaar
+  zit. Ook als zondag als eerste dag gezien wordt, geldt dit. Week 1 is ook de week
+  waar 4 januari in valt, of de week met de meeste dagen.<br /><br />
+  In sommige landen wordt een andere methode gebruikt zodat het weeknummer kan afwijken.
+  In bijvoorbeeld de Verenigde Staten en Japan begint de week op zondag, en is de
+  week waarin 1 januari valt de eerste week van het jaar.<br /><br />
+  <span class="small">Bron: Wikipedia</span><br /><br />
+</Page>
+<script>
+  import '../../../../../components/lit/WeeknumberCalculator.js';
+</script>

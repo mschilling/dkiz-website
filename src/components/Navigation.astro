@@ -1,0 +1,50 @@
+<div class="container">
+  <a href="/">Home</a>
+  <a href="/handig/">Handig</a>
+  <a href="/links/">Links</a>
+  <a href="/archief/">Archief</a>
+  <a href="/zoeken/">Zoeken</a>
+</div>
+
+<style>
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background: var(--color-primary);
+}
+.container a {
+  color: var(--color-menu-link-text);
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 6px 4px;
+}
+
+.container a:hover {
+  color: var(--color-menu-link-hover);
+}
+
+.container {
+  color: var(--color-white);
+}
+
+@media all and (min-width: 600px) {
+  .container {
+    padding: 1px 0;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .container a {
+    padding: unset;
+    padding-right: 2em;
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+  .container a:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+</style>

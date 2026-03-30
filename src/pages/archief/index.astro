@@ -1,0 +1,39 @@
+---
+import Page from '../../layouts/Page.astro';
+import ArticleSnippet from '../../components/ArticleSnippet.astro';
+import { getCollection } from 'astro:content';
+
+const title = 'Archief';
+
+// Fetch all posts from both collections
+const artikelen = await getCollection('artikelen');
+const articles = await getCollection('articles');
+const allPosts = [...artikelen, ...articles].map((post) => ({
+  title: post.data.title,
+  description: post.data.description,
+  thumb: post.data.thumb,
+  publishDate: post.data.publishDate,
+  categories: post.data.categories ?? [],
+  url: post.collection === 'artikelen' ? `/artikelen/${post.id}/` : `/articles/${post.id}/`,
+}));
+
+const selectedPosts = allPosts
+  .filter((post) => post.categories.includes('artikelen'))
+  .sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime());
+---
+<Page
+  title="Archief - Gratis verjaardagskaartjes versturen, online zoeken naar een baan, starten met ondernemen, je vindt het in het archief"
+>
+  <section class="intro">
+    <h1 class="latest">{title}</h1>
+    <p>In het archief kan je alle oudere artikelen teruglezen.</p>
+  </section>
+
+  <section>
+  &nbsp;
+  </section>
+
+  <section>
+    {selectedPosts.map((p, index) => <ArticleSnippet post={p} index={index} />)}
+  </section>
+</Page>

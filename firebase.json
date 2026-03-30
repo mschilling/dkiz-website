@@ -1,0 +1,119 @@
+{
+  "hosting": {
+    "site": "datkanikzelf",
+    "public": "dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "redirects": [
+      {
+        "regex": "/articles/2007/09//msn_messenger_emoticons/",
+        "destination": "/articles/2007/09/msn-messenger-emoticons/",
+        "type": 301
+      },
+      {
+        "regex": "/articles/2007/09/verjaardagskaartje_versturen/",
+        "destination": "/articles/2007/09/verjaardagskaartje-versturen/",
+        "type": 301
+      },
+      {
+        "regex": "/articles/2007/12/hoe_bestel_ik_mijn_boeken_online/",
+        "destination": "/articles/2007/12/hoe-bestel-ik-mijn-boeken-online/",
+        "type": 301
+      },
+      {
+        "regex": "/artikelen/2008/08/gratis_anoniem_telefoonnummer_aanvragen/",
+        "destination": "/artikelen/2008/08/gratis-anoniem-telefoonnummer-aanvragen/",
+        "type": 301
+      },
+      {
+        "regex": "/artikelen/2008/03/start_je_eigen_parfumhandel/",
+        "destination": "/artikelen/2008/03/start-je-eigen-parfumhandel/",
+        "type": 301
+      },
+      {
+        "regex": "/artikelen/2008/03/hoe_maak_ik_gratis_visitekaartjes/",
+        "destination": "/artikelen/2008/03/hoe-maak-ik-gratis_visitekaartjes/",
+        "type": 301
+      },
+      {
+        "regex": "/jaar-weeknummers-overzicht-(?P<params>\\d{4}).aspx$",
+        "destination": "/handig/weeknummers/:params/",
+        "type": 301
+      },
+      {
+        "source": "/handig/2007/04/leeftijd-uitrekenen/Default.aspx",
+        "destination": "/handig/2007/04/leeftijd-uitrekenen/",
+        "type": 301
+      },
+      {
+        "source": "/handig/2007/04/emailadres-filteren/Default.aspx",
+        "destination": "/handig/2007/04/emailadres-filteren/",
+        "type": 301
+      },
+      {
+        "source": "/handig/2008/06/huidig_weeknummer/Default.aspx",
+        "destination": "/handig/2008/06/huidig_weeknummer/",
+        "type": 301
+      },
+      {
+        "source": "/handig/2007/04/klikbare-link/Default.aspx",
+        "destination": "/handig/2007/04/klikbare-link/",
+        "type": 301
+      },
+      {
+        "source": "/handig/2007/04/internet-klembord/Default.aspx",
+        "destination": "/handig/2007/04/internet-klembord/",
+        "type": 301
+      },
+      {
+        "source": "/handig/2007/04/lijstje-sorteren/Default.aspx",
+        "destination": "/handig/2007/04/lijstje-sorteren/",
+        "type": 301
+      },
+      {
+        "source": "/handig/2007/04/weekdag-bepalen/Default.aspx",
+        "destination": "/handig/2007/04/weekdag-bepalen/",
+        "type": 301
+      },
+      {
+        "source": "/Zoeken.aspx",
+        "destination": "/zoeken/",
+        "type": 301
+      },
+      {
+        "source": "/Links.aspx",
+        "destination": "/links/",
+        "type": 301
+      },
+      {
+        "source": "/Link-naar-ons.aspx",
+        "destination": "/links/link-naar-ons/",
+        "type": 301
+      },
+      {
+        "source": "/artikelen/2007/11/Inkomende_Links_OK_Uitgaande_links_NEE/",
+        "destination": "/artikelen/2007/11/inkomende_links_ok_uitgaande_links_nee/",
+        "type": 301
+      },
+      {
+        "source": "/artikelen/2007/12/Zoekmachineoptimalisatie_analyseer_je_concurrenten/",
+        "destination": "/artikelen/2007/12/zoekmachineoptimalisatie_analyseer_je_concurrenten/",
+        "type": 301
+      },
+      {
+        "source": "/artikelen/2007/12/Wat_is_webmarketing_Internet_marketing/",
+        "destination": "/artikelen/2007/12/wat_is_webmarketing_internet_marketing/",
+        "type": 301
+      },
+      {
+        "source": "/artikelen/2007/12/Waarom_zoekmachines_je_webpaginas_niet_begrijpen/",
+        "destination": "/artikelen/2007/12/waarom_zoekmachines_je_webpaginas_niet_begrijpen/",
+        "type": 301
+      },
+      {
+        "source": "/artikelen/2007/12/Het_kiezen_van_de_meest_effectieve_kleuren_voor_je_site_-_De_Psychologie_van_kleur/",
+        "destination": "/artikelen/2007/12/het_kiezen_van_de_meest_effectieve_kleuren_voor_je_site_-_de_psychologie_van_kleur/",
+        "type": 301
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+---
+import site from '../data/site.json';
+import Page from '../layouts/Page.astro';
+import ArticleSnippet from '../components/ArticleSnippet.astro';
+import { getCollection } from 'astro:content';
+
+const meta = site;
+
+// Fetch all posts from both collections
+const artikelen = await getCollection('artikelen');
+const articles = await getCollection('articles');
+const allPosts = [...artikelen, ...articles].map((post) => ({
+  title: post.data.title,
+  description: post.data.description,
+  thumb: post.data.thumb,
+  order: post.data.order,
+  url: post.collection === 'artikelen' ? `/artikelen/${post.id}/` : `/articles/${post.id}/`,
+}));
+
+const selectedPosts = allPosts
+  .filter((post) => post.order)
+  .sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
+
+const pageDescription = meta.page.description;
+const pageKeywords = meta.page.keywords;
+---
+<Page
+  title="Dat Kan Ik Zelf . nl - Een tweede email adres maken, gratis verjaardagskaartjes versturen, online zoeken naar een baan, starten met ondernemen"
+  description={pageDescription}
+  keywords={pageKeywords}
+>
+  <section class="intro">
+    <h1 class="latest">DatKanIkZelf.nl</h1>
+    <p>Werken met zoekmachines, handige weetjes over producten en programma's, zelf ondernemen en voordelige
+    aankopen doen op het Internet... <br />
+    <br />
+    ... zoveel van wat je nu uit handen geeft en niet onderneemt is prima te doen met de juiste uitleg, en
+    die vind je hier! Beschrijvingen en tips waardoor je de volgende keer zonder twijfel kan
+    zeggen: <strong>dat kan ik zelf</strong>!</p>
+  </section>
+
+  <section>
+    &nbsp;
+  </section>
+
+  <section>
+    <h2>Interessante artikelen</h2>
+  </section>
+
+  <section>
+    {selectedPosts.map((p, index) => <ArticleSnippet post={p} index={index + 1} />)}
+  </section>
+</Page>

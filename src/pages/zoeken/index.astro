@@ -1,0 +1,131 @@
+---
+import Page from '../../layouts/Page.astro';
+---
+<Page
+  title = "Zoeken"
+  description = "Zoek binnen Dat Kan Ik Zelf . nl"
+>
+
+  <section>
+    <h1>Zoeken</h1>
+    <br />
+    <p>Op deze pagina kan je zoeken binnen de site van Dat Kan Ik Zelf. Geef een zoekterm op en druk op <strong>Zoeken</strong>.</p>
+    <br />
+
+    <form class="searchform" onsubmit="event.preventDefault()">
+
+      <div class="input">
+        <input id="sbi2" name="sbi2" type="text" maxlength="255" aria-label="Voer uw zoekwoorden in" />
+      </div>
+
+      <div class="radiogroup">
+        <input type="radio" id="ss0_2" name="sitesearch" value="1" checked>
+        <label for="ss0_2"><img src="http://www.google.com/logos/Logo_25wht.gif" border="0" align="top" alt="Google" /></label>
+        <input type="radio" id="ss1_2" name="sitesearch" value="2" >
+        <label for="ss1_2">DatKanIkZelf.nl</label>
+      </div>
+      <div class="button">
+        <button type="submit" name="sbb" aria-label="Zoekformulier verzenden">Zoeken</button>
+      </div>
+    </form>
+
+  </section>
+
+  <style lang="scss">
+    @use '../../styles/breakpoints' as *;
+
+  .searchform {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .searchform > * {
+    width: 100%;
+    flex-grow: 1;
+  }
+
+  .radiogroup {
+    margin: 0.8em 0;
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+
+    @include bp(md) {
+      align-items: center;
+    }
+
+    label {
+      font-size: 1.3em;
+
+      @include bp(md) {
+        font-size: unset;
+      }
+
+      img {
+        padding: 5px;
+      }
+    }
+
+  }
+
+  .button {
+    button {
+      width: 120px;
+    }
+  }
+
+  input[type="text"] {
+    width: 80%;
+  }
+
+  </style>
+
+  <script>
+
+    var form = document.getElementsByClassName('searchform')[0];
+
+    var search = function(searchPhrase, globalSearch = false) {
+      const targetUrl = 'http://www.google.nl/custom?';
+      let params = '';
+
+      params += 'domains=www.datkanikzelf.nl';
+      params += '&q=' + encodeURIComponent(searchPhrase);
+
+      if (globalSearch) {
+        params += '&sitesearch=';
+      } else {
+        params += '&sitesearch=www.datkanikzelf.nl';
+      }
+
+      params += '&sa=Zoeken';
+      params += '&client=pub-9166294348244212';
+      params += '&forid=1';
+      params += '&channel=8004616750';
+      params += '&ie=ISO-8859-1';
+      params += '&oe=ISO-8859-1';
+      params += '&safe=active';
+      // prettier-ignore
+      params += '&cof=GALT%3A%23008000%3BGL%3A1%3BDIV%3A%23336699%3BVLC%3A663399%3BAH%3Acenter%3BBGC%3AFFFFFF%3BLBGC%3A336699%3BALC%3A0000FF%3BLC%3A0000FF%3BT%3A000000%3BGFNT%3A0000FF%3BGIMP%3A0000FF%3BFORID%3A1';
+      params += '&hl=nl';
+
+      //Redirect to Google
+      window.location.href = targetUrl + params;
+    }
+
+    var searchClick = function(event) {
+      event.preventDefault();
+
+      var input = document.getElementById('sbi2');
+      var radio1 = document.getElementById('ss0_2');
+      var radio2 = document.getElementById('ss1_2');
+
+      search(input.value, radio1.checked === true);
+
+    }
+
+    // attach event listener
+    form.addEventListener("submit", searchClick, true);
+
+</script>
+
+</Page>

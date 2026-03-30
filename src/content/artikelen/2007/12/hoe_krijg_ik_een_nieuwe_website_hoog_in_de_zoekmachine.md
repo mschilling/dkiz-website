@@ -1,0 +1,45 @@
+---
+publishDate: '2007-12-04T12:00'
+title: 'Hoe krijg ik een nieuwe website hoog in de zoekmachine'
+description: In dit artikel wordt uitgelegd hoe je jouw nieuwe website hoog in de Google zoekmachine krijgt. Dus tips om je nieuwe website goed te laten ranken in zoekmachines.
+author: 'jcs'
+categories: ['webmarketing']
+thumb: /assets/2007/12/seo_google.jpg
+permalink: /artikelen/2007/12/hoe_krijg_ik_een_nieuwe_website_hoog_in_de_zoekmachine/
+---
+
+Het is een ongelukkig feit – het maakt niet uit hoe goed je <b>zoekmachine-optimalisatiebedrijf</b> of je interne talent (je zoekmachine expert) is, <b>nieuwe websites</b> hebben het moeilijker om een <b>hoge ranking</b> in zoekmachines te bereiken voor concurrerende uitdrukkingen dan hun oudere tegenhangers, in het bijzonder op Google. Maar, het slechtste dat een nieuwe website eigenaar kan doen, is te veronderstellen dat hij "te laat" is en beslissen om dit marketingkanaal niet aan te boren. Een goed <b>zoekmachine-optimaliseringsbedrijf</b> zou effectief met een nieuwe website moeten kunnen werken: het zetten van een basis voor een opmerkelijk succesverhaal, terwijl op korte termijn een gestaag stijgend voordeel wordt bereikt.<br />
+<br />
+Er zijn vele redenen waarom nieuwe websites het moeilijk hebben. Hieronder volgen slechts enkele van de belangrijkste struikelblokken:<br />
+<br />
+
+<h2>The Google Sandbox</h2>
+Er wordt veel gesproken over wat nu precies de <b>Google Sandbox</b> is, en zelfs over de vraag of het eigenlijk bestaat. Maar, een recente octrooi indiening namens Google lijkt te bevestigen dat één van de factoren die Google in overweging neemt bij het besluiten van hoe de websites zouden moeten worden gerankt, de <b>leeftijd van de domeinnaam</b> is. Meerdere <b>zoekmachineoptimalisatiebedrijven</b> hebben opgemerkt dat er een sanctie schijnt te zijn die aan <b>nieuwe websites</b> wordt toegekend, vooral die websites die op zeer korte termijn zeer veel inkomende links hebben gekregen. Het is slechts giswerk, maar het zou zeer goed kunnen. Inkomende links spelen een belangrijke rol in <b>Google rankings</b> en daarom begonnen veel populaire websites links te verkopen vanaf hun website (iets wat tegen Google’s voorwaarden en condities ingaat). Maar, het verkopen van links is zeer moeilijk te controleren. De Google Sandbox wordt in de strijd gegooid, omdat Google lijkt te zeggen "waarschijnlijk kunnen we mensen niet stoppen om inkomende links te kopen, maar ze moeten wel erg veel betalen, voordat we ze een ranking boost geven vanwege die inkomende links." Ook dit is giswerk, maar deze stelling is erg populair in verscheidene zoekmachineoptimalisatie forums.<br />
+<br />
+<h2>Gebrek aan links</h2>
+Jammer genoeg, heeft een <b>nieuwe website</b> te maken met het tegenovergestelde probleem. Links naar nieuwe websites worden dus niet altijd vertrouwd, maar zonder inkomende links heeft een nieuwe website weinig kans om goed binnen Google te presteren. Dit is duidelijk een pijnlijk feit voor vele eigenaars van nieuwe websites.<br />
+<br />
+<h2>Betrouwbaarheid</h2>
+De afgelopen jaren was een algemene strategie van zoekmachineoptimalisatiebedrijven om meerdere nieuwe websites op te zetten voor één bedrijf, elk gericht op verschillende zoektermen. Dit was grotendeels toe te schrijven aan het feit dat <b>zoekmachines</b> een veel groter belang hechten aan de homepage van een website, dan aan de rest van de pagina's. Na verloop van tijd, trapten de zoekmachines hier niet meer in, met het gevolg dat nieuwe domeinen nu meer sceptisch bekeken worden. De heersende wijsheid schijnt te zijn dat omdat het vrij gemakkelijk en goedkoop is om een nieuwe website op te zetten die zich richt op een bepaalde zoekterm, een website die veel langer in de zoekmachine staat en veel content/tekstinhoud veel meer te verliezen heeft en het dus minder waarschijnlijk is dat het het systeem probeert te omzeilen.<br />
+<br />
+Betekent dit dat je geen <b>zoekmachineoptimaliseringsbedrijf</b> zou moeten inhuren om aan je nieuwe website te werken? Helemaal niet. In feite, is het in het allereerste begin van je website planning dat een strategie op lange termijn op poten zou moeten worden gezet - een strategie die ook nog positieve resultaten op korte termijn biedt.<br />
+<br />
+<h2>Betrek je zoekmachineoptimalisatiebedrijf zo spoedig mogelijk</h2>
+Het is belangrijk om je zoekmachineoptimalisatiebedrijf  er zo spoedig mogelijk bij te betrekken alvorens je je nieuwe website bouwt. Er zijn niet alleen vele technische kwesties waarvan je bewust zou moeten zijn alvorens je met ontwerpen begint (zoals architectuur van linking en te gebruiken teksttypes), maar er zijn ook strategieën die in het begin kunnen worden ingezet die enkele van de hierboven vermelde struikelblokken zullen tegengaan. Wanneer je je zoekmachineoptimaliseringsbedrijf  er pas bij betrekt nadat je je nieuwe website hebt gebouwd, zal waarschijnlijk veel van je werk moeten worden overgedaan in verband met de strategie op lange termijn.<br />
+<br />
+<h2>Richten op de juiste zoektermen</h2>
+Een goed zoekmachineoptimaliseringsbedrijf  zal je vertellen dat het richten van een gloednieuwe website op <b>hoog concurrerende zoektermen</b> vrijwel zinloos is. Maar, dit betekent niet dat je geen initieel succes op zoekmachines kunt bereiken. De truc is om je website in het begin op <b>minder concurrerende zoektermen</b> te richten, en later de meer concurrerende zoektermen aan te pakken. Bijvoorbeeld, veronderstel dat je bedrijf panelen verkoopt, en dat de "verkoop panelen" een zeer concurrerende zoekterm is.<br />
+<br />
+Een zoekmachineoptimalisatiebedrijf  dat aan uw nieuwe site werkt zou je kunnen adviseren dat je je website richt op minder concurrerende variaties van de zoekterm, zoals "verkoop kunststof panelen" of "fabricage kunststof panelen." Aangezien deze zoektermen minder concurrerend zijn, zullen je eerder <b>hoge rankings</b> verkrijgen met je <b>nieuwe website</b>. Je kunt zo in het begin genieten van internetverkeer vanaf de <b>hoge ranking in de zoekmachine</b> en uiteindelijk richten op meer concurrerende en populaire zoektermen, aangezien je site meer grip, kwalitatieve <a href="/articles/2007/11/inkomende_links_ok_uitgaande_links_nee/">inkomende links</a> en reputatie heeft gekregen.<br />
+<br />
+<h2>Maak je site een bron van informatie</h2>
+Een goed zoekmachineoptimaliseringsbedrijf zal je aanmoedigen om je nieuwe site in een informatiebron te veranderen voor jouw industrie, hobby of interesse. Je kunt dit doen door educatieve inhoud over je industrie, hobby of interesse te verstrekken in de vorm van artikelen, whitepapers, en andere vormen van neutrale inhoud. Er zijn vele voordelen aan deze benadering, waarvan één van de belangrijkste is dat dergelijke inhoud <a href="/articles/2007/11/inkomende_links_ok_uitgaande_links_nee/">inkomende links</a> aantrekt, zonder dat je er zelf wat voor hoeft te doen. Bovendien verhoogt zo’n bron van informatie je geloofwaardigheid voor je potentiële klanten en dient hen in alle stadia van de koopcyclus, zodat wanneer ze klaar zijn om een aankoop te doen, jij waarschijnlijk de eerste zult zijn waaraan ze denken.<br />
+<h2>Bouw links</h2>
+Wanneer je je nieuwe website tot een nuttige bron van informatie maakt om inkomende links aan te trekken, betekent dit nog niet dat je geen inkomende links moet bouwen. Je zult je website moeten aanmelden bij "general directories" (zoals DMOZ.nl) en, nog belangrijker, in onderwerp specifieke directories (zoals startpagina.nl). Niet alleen helpen deze links je om je website hoger te laten ranken in de zoekmachines, maar ze zijn ook een kwaliteitsbron van gericht internetverkeer.<br />
+<br />
+<h2>Houd je inhoud up-to-date</h2>
+Een zoekmachine spider zal je website vaak (opnieuw) bezoeken wanneer je tekstinhoud regelmatig verbetert en vermeerdert. Een website die drie jaar geleden geoptimaliseerd is en daarna niet aan veranderingen onderhevig is geweest, zal het normaal gezien niet zo goed doen als een site die inhoud heeft die constant wordt bijgewerkt. Het is alsof de zoekmachine denkt: "Deze oude gegevens zien er goed uit, maar het is zeker niet de nieuwste informatie over dit onderwerp." Deze zogenaamde "<b>versheidsfactor</b>" (<b>freshness factor</b>) kan een grote invloed hebben op de <b>ranking</b>, in het bijzonder op <b>nieuwe websites</b>.<br />
+<br />
+Nu lijkt het bereiken van <b>zoekmachine-succes</b> met een <b>nieuwe website</b> erg ontmoedigend te zijn, maar dit hoeft niet wanneer het juist gedaan wordt. Het inhuren van een bekwaam <b>zoekmachineoptimalisatiebedrijf</b>  is een goede eerste stap. Het heeft geen nut om over de moeilijkheid van zoekmachineoptimalisatie te steunen en te kreunen, of van mening te zijn dat je al te veel achterop bent geraakt om een poging te wagen en te beginnen. Een oud Chinees gezegde herinnert ons eraan: "De beste tijd om een boom te planten was 20 jaar geleden. De tweede beste tijd is vandaag."<br />
+<br />
+Auteur: JCS (november 2007)

@@ -1,0 +1,12 @@
+---
+import Page from '../../../../../layouts/Page.astro';
+---
+<Page title="E-mailadressen filteren">
+  <h2>E-mailadressen filteren</h2>
+  <p>Met het filter kun je snel en eenvoudig e-mailadressen uit een willekeurige tekst filteren. Plak de tekst met e-mailadressen in het tekstveld en druk op Start.</p>
+  <emailaddress-filter></emailaddress-filter>
+</Page>
+<script>
+  import '../../../../../components/lit/FilterEmails.js';
+  import '../../../../../components/lit/OutputResult.js';
+</script>

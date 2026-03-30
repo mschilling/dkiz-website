@@ -1,0 +1,34 @@
+---
+import authors from '../data/authors.json';
+
+interface IAuthor {
+  name: string;
+}
+
+interface Props {
+  name: string;
+  publishDate?: string;
+}
+
+const { name } = Astro.props;
+const author: IAuthor | undefined = (authors as Record<string, IAuthor>)[name];
+---
+<style lang="scss">
+  @use '../styles/breakpoints' as *;
+
+  .author {
+    margin-top: 1em;
+    margin-bottom: 0.75rem;
+    color: var(--theme-text-light);
+    font-size: 0.8em;
+
+    @include bp(md) {
+      color: var(--theme-text-light);
+      text-align: right;
+      font-style: italic;
+    }
+  }
+</style>
+{author && <div class="author">
+  <p>Door: {author.name}</p>
+</div>}

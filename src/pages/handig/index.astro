@@ -1,0 +1,124 @@
+---
+import Page from '../../layouts/Page.astro';
+import PreviewSnippet from '../../components/PreviewSnippet.astro';
+import pages from '../../data/handig.json';
+
+const selectedPages = pages.filter((page: any) =>
+  page.visible !== false
+  && page.featured !== true
+);
+---
+<Page
+  title="Handig"
+  description=""
+>
+  <section class="intro">
+    <h1 class="latest">Dat is handig</h1>
+    <p>Dit onderdeel van de website bevat handige features om je dagelijkse dingen <strong>sneller en gemakkelijker</strong> te doen. <br />
+    <br /></p>
+  </section>
+
+  <hr />
+
+  <PreviewSnippet
+    title="Weeknummer deze week"
+    link="/handig/2008/06/huidig_weeknummer/"
+    imageUrl="/assets/2008/06/kalender_demo.jpg"
+    index={0}
+  >
+    Gaat de tijd soms te snel, en ben jij ook wel eens vergeten in <strong>welke weeknummer</strong>
+    we nu zitten? Deze pagina toont altijd het <strong>week nummer</strong> van de <strong>
+    huidige week</strong>! Ook heb je de mogelijkheid om gemakkelijk te bepalen in
+    welke week een gekozen datum valt. <br />
+    <br />
+    Bekijk de <a href="/handig/2008/06/huidig_weeknummer/">weeknummer informatie</a> van deze week.
+  </PreviewSnippet>
+
+  <PreviewSnippet
+    title="Handig zoeken"
+    link="/handig/2008/04/handig-zoeken/"
+    imageUrl="/assets/2008/04/curious_george.jpg"
+    index={1}
+  >
+    Ben je regelmatig op zoek naar informatie, maar kan je het niet altijd vinden? Of vind je
+    steeds de verkeerde informatie? Gebruik dan <strong>Handig
+    zoeken</strong>! De <em>feature</em> <strong>Handig zoeken</strong> biedt <strong>
+    hulp</strong> bij het zoeken naar <em>online content</em> (informatie). Film
+    informatie, songteksten, boeken en ga zo maar door.<br />
+    <br />
+    Gebruik <a href="/handig/2008/04/handig-zoeken/">handig zoeken op internet</a>.
+  </PreviewSnippet>
+
+  <PreviewSnippet
+    title="Tekst naar afbeelding omzetter"
+    link="/handig/2008/11/tekst-naar-plaatje/"
+    imageUrl="/assets/2008/11/tekst_naar_afbeelding.jpg"
+    index={0}
+  >
+    Snel even wat <strong>tekst omzetten</strong> in een <strong>plaatje</strong>? Bijvoorbeeld om je eigen tekst
+    als MSN afbeelding te kunnen kiezen? Ga naar de <a href="/handig/2008/11/tekst-naar-plaatje/">
+    tekst naar afbeelding generator</a>.
+  </PreviewSnippet>
+
+  <section>&nbsp;</section>
+
+  <section>
+    <h2>Bekijk ook</h2>
+    {selectedPages.map((p: any) => <p><a href={p.url}>{p.title}</a></p>)}
+  </section>
+
+  <section>&nbsp;</section>
+
+  <section>
+    <h2>Weeknummers archief</h2>
+    <p>
+      <a href="/handig/weeknummers/2020/">Weeknummers 2020 overzicht</a><br />
+      <a href="/handig/weeknummers/2019/">Weeknummers 2019 overzicht</a><br />
+      <a href="/handig/weeknummers/2018/">Weeknummers 2018 overzicht</a><br />
+      <a href="/handig/weeknummers/2017/">Weeknummers 2017 overzicht</a><br />
+      <a href="/handig/weeknummers/2016/">Weeknummers 2016 overzicht</a><br />
+      <a href="/handig/weeknummers/2015/">Weeknummers 2015 overzicht</a><br />
+      <a href="/handig/weeknummers/2014/">Weeknummers 2014 overzicht</a><br />
+      <a href="/handig/weeknummers/2013/">Weeknummers 2013 overzicht</a><br />
+      <a href="/handig/weeknummers/2012/">Weeknummers 2012 overzicht</a><br />
+      <a href="/handig/weeknummers/2011/">Weeknummers 2011 overzicht</a><br />
+      <a href="/handig/weeknummers/2010/">Weeknummers 2010 overzicht</a><br />
+      <a href="/handig/weeknummers/2009/">Weeknummers 2009 overzicht</a><br />
+      <a href="/handig/weeknummers/2008/">Weeknummers 2008 overzicht</a><br />
+      <a href="/handig/weeknummers/2007/">Weeknummers 2007 overzicht</a><br />
+    </p>
+  </section>
+
+  <section>&nbsp;</section>
+
+  <section>
+    <h2>Archief Nederlandse Feestdagen</h2>
+    <p>
+      <a href="/handig/feestdagen/2020/">Overzicht feestdagen 2020</a><br />
+      <a href="/handig/feestdagen/2019/">Overzicht feestdagen 2019</a><br />
+      <a href="/handig/feestdagen/2018/">Overzicht feestdagen 2018</a><br />
+      <a href="/handig/feestdagen/2017/">Overzicht feestdagen 2017</a><br />
+      <a href="/handig/feestdagen/2016/">Overzicht feestdagen 2016</a><br />
+      <a href="/handig/feestdagen/2015/">Overzicht feestdagen 2015</a><br />
+      <a href="/handig/feestdagen/2014/">Overzicht feestdagen 2014</a><br />
+      <a href="/handig/feestdagen/2013/">Overzicht feestdagen 2013</a><br />
+      <a href="/handig/feestdagen/2012/">Overzicht feestdagen 2012</a><br />
+      <a href="/handig/feestdagen/2011/">Overzicht feestdagen 2011</a><br />
+      <a href="/handig/feestdagen/2010/">Overzicht feestdagen 2010</a><br />
+      <a href="/handig/feestdagen/2009/">Overzicht feestdagen 2009</a><br />
+      <a href="/handig/feestdagen/2008/">Overzicht feestdagen 2008</a><br />
+    </p>
+  </section>
+
+  <section>&nbsp;</section>
+</Page>
+
+<style>
+hr {
+  width: 100%;
+  border:solid 1px #f0f0f0;
+  height:1px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+</style>

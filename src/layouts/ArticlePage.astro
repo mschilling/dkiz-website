@@ -1,0 +1,71 @@
+---
+import { formatDate } from '../utils/date-helper.util';
+import Page from './Page.astro';
+import Author from '../components/Author.astro';
+import AdsenseInArticle from '../components/ads/AdSenseInArticle.astro';
+
+interface Props {
+  title: string;
+  author?: string;
+  publishDate?: string;
+  heroImage?: string;
+  description?: string;
+  keywords?: string;
+  alt?: string;
+}
+const { title, description, keywords, publishDate, author, heroImage, alt } = Astro.props;
+---
+<Page
+  title={title}
+  description={description}
+  keywords={keywords}
+>
+
+  <article class="content">
+  <div>
+    <section>
+      {heroImage && <img width="720" height="420" class="hero-image" loading="lazy" src={heroImage} alt={alt} />}
+      {publishDate && <p class="publish-date">{formatDate(publishDate)}</p>}
+      <h1 class="title">{title}</h1>
+      {author && <Author name={author} publishDate={publishDate} />}
+    </section>
+    <main>
+      <AdsenseInArticle />
+      <slot />
+    </main>
+  </div>
+  </article>
+
+<style>
+.hero-image {
+  width: 100vw;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  max-width: 1280px;
+}
+
+@media (max-width: 50em) {
+  .hero-image {
+    height: 260px;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+}
+
+.content {
+  margin-bottom: 8rem;
+}
+
+.title,
+.publish-date {
+  margin: 0;
+}
+
+.publish-date {
+  color: var(--theme-text-light);
+}
+</style>
+
+</Page>

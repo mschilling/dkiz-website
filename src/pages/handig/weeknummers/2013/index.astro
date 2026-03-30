@@ -1,0 +1,12 @@
+---
+import Page from '../../../../layouts/Page.astro';
+
+const year = 2013;
+---
+<Page title={`Jaar weeknummers overzicht (${year})`}>
+  <h2>{`Jaar weeknummers overzicht (${year})`}</h2>
+  <weeknumber-list year={year}></weeknumber-list>
+</Page>
+<script>
+  import '../../../../components/lit/WeeknumberList.ts';
+</script>

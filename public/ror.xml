@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:ror="http://rorweb.com/0.1/">
+  <channel>
+    <title>ROR Sitemap for https://www.datkanikzelf.nl/</title>
+    <link>https://www.datkanikzelf.nl/</link>
+    <item>
+      <title>ROR Sitemap for https://www.datkanikzelf.nl/</title>
+      <link>https://www.datkanikzelf.nl/</link>
+      <ror:about>sitemap</ror:about>
+      <ror:type>SiteMap</ror:type>
+    </item>
+
+    <item>
+      <link>https://www.datkanikzelf.nl/</link>
+      <title>
+	Dat Kan Ik Zelf . nl - De doe-het-zelf website voor slimme mensen
+      </title>
+      <ror:updatePeriod>weekly</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/</link>
+      <title>Dat is handig</title>
+      <ror:updatePeriod>weekly</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/archief/</link>
+      <title>Archief</title>
+      <ror:updatePeriod>weekly</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/articles/2007/09/verjaardagskaartje_versturen/</link>
+      <title>
+	Verjaardagskaartjes versturen
+      </title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/articles/2007/03/emailadres-aanmaken/</link>
+      <title>
+	Een e-mailadres aanmaken
+      </title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2024/11/genereer-je-eigen-podcast-met-notebooklm/</link>
+      <title>
+	Genereer je eigen podcast
+      </title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/articles/2007/09/msn-messenger-emoticons/</link>
+      <title>
+	MSN Messenger emoticons exporteren
+      </title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/articles/2007/12/hoe-bestel-ik-mijn-boeken-online/</link>
+      <title>
+      Hoe bestel ik mijn boeken online?
+      </title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2007/12/hoe-registreer-ik-een-domeinnaam/</link>
+      <title>
+      Hoe registreer ik een domeinnaam?
+      </title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2007/12/hoe-krijg-ik-een-nieuwe-website-hoog-in-de-zoekmachine/</link>
+      <title>
+      Hoe krijg ik een nieuwe website hoog in de zoekmachine?
+      </title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2008/03/hoe-maak-ik-gratis-visitekaartjes/</link>
+      <title>
+      Maak je eigen visitekaartjes - deel 1
+      </title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2008/03/start-je-eigen-parfumhandel/</link>
+      <title>Start je eigen parfumhandel</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2008/03/gratis-anoniem-telefoonnummer-aanvragen/</link>
+      <title>Gratis anoniem telefoonnummer aanvragen</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2008/10/juiste-baan-vinden-via-internet/</link>
+      <title>Online vacatures zoeken</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2008/09/educatie-over-diamanten/</link>
+      <title>Educatie over diamanten</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2009/05/leer-dansen-maak-choreografie/</link>
+      <title>Leer dansen en maak je eigen choreografie</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2009/09/recensie-leren-schrijven/</link>
+      <title>Leer een recensie schrijven</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2010/06/gitaar-leren-spelen-voor-beginners/</link>
+      <title>Leer gitaar spelen (voor beginners)</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2011/01/verdien-geld-met-je-website/</link>
+      <title>Verdien geld met je blog of website</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2011/09/affiliate-marketing-voor-beginners/</link>
+      <title>Affiliate marketing voor beginners</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2011/10/beginnersgitaar-selecteren-en-kopen/</link>
+      <title>Wat is een goede beginnersgitaar en wat mag zoiets kosten?</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2012/12/gezond-eten-en-afvallen/</link>
+      <title>Gezond eten en afvallen</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2013/07/hoe-sollicitatiebrief-schrijven/</link>
+      <title>Schrijf een overtuigende sollicitatiebrief</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2013/12/email-synchroniseren-met-gmail-en-imap/</link>
+      <title>Email synchroniseren met je telefoon, tablet en computer</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2015/01/persoonlijk-en-origineel-huwelijkscadeau/</link>
+      <title>Een boek met een zelfgeschreven verhaal</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>SEO links: Inkomende Links OK, Uitgaande links NEE</link>
+      <title>https://www.datkanikzelf.nl/artikelen/2007/11/Inkomende_Links_OK_Uitgaande_links_NEE/</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2007/12/Zoekmachineoptimalisatie_analyseer_je_concurrenten/</link>
+      <title>Zoekmachineoptimalisatie: analyseer je concurrenten</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2007/12/Wat_is_webmarketing_Internet_marketing/</link>
+      <title>Wat is webmarketing / internet marketing?</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2007/12/Waarom_zoekmachines_je_webpaginas_niet_begrijpen/</link>
+      <title>Waarom zoekmachines je webpagina's niet begrijpen</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2007/12/Het_kiezen_van_de_meest_effectieve_kleuren_voor_je_site_-_De_Psychologie_van_kleur/</link>
+      <title>Het kiezen van de meest effectieve kleuren voor je site - De Psychologie van kleur</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/artikelen/2007/12/hoe_krijg_ik_een_nieuwe_website_hoog_in_de_zoekmachine/</link>
+      <title>Hoe krijg ik een nieuwe website hoog in de zoekmachine?</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/feestdagen/2019/</link>
+      <title>Alle feestdagen van 2019</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/feestdagen/2018/</link>
+      <title>Alle feestdagen van 2018</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/feestdagen/2017/</link>
+      <title>Alle feestdagen van 2017</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/feestdagen/2016/</link>
+      <title>Alle feestdagen van 2016</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/feestdagen/2015/</link>
+      <title>Alle feestdagen van 2015</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/feestdagen/2014/</link>
+      <title>Alle feestdagen van 2014</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/feestdagen/2013/</link>
+      <title>Alle feestdagen van 2013</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/feestdagen/2012/</link>
+      <title>Alle feestdagen van 2012</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/feestdagen/2011/</link>
+      <title>Alle feestdagen van 2011</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/feestdagen/2010/</link>
+      <title>Alle feestdagen van 2010</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/feestdagen/2009/</link>
+      <title>Alle feestdagen van 2009</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/feestdagen/2008/</link>
+      <title>Alle feestdagen van 2008</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/2008/11/tekst-naar-plaatje/</link>
+      <title>Tekst-naar-plaatje omzetter</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/2008/06/huidig_weeknummer/</link>
+      <title>Weeknummer bepalen</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/2008/04/handig-zoeken/</link>
+      <title>Handig zoeken</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/2007/04/emailadres-filteren/</link>
+      <title>E-mailadressen filteren</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/2007/04/internet-klembord/</link>
+      <title>Internet Klembord</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/2007/04/klikbare-link/</link>
+      <title>
+	Een klikbare link maken
+      </title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/2007/04/leeftijd-uitrekenen/</link>
+      <title>
+	Een leeftijd uitrekenen
+      </title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/2007/04/lijstje-sorteren/</link>
+      <title>
+	Een lijstje sorteren
+      </title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/handig/2007/04/weekdag-bepalen/</link>
+      <title>
+	Weekdag bepalen
+      </title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>0</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+    <item>
+      <link>https://www.datkanikzelf.nl/informatie_over/hoops_and_yoyo/wie_zijn_hoops_en_yoyo/</link>
+      <title>Wie zijn Hoops &amp; Yoyo?</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>1</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+
+    <item>
+      <link>https://www.datkanikzelf.nl/links/</link>
+      <title>Links</title>
+      <ror:updatePeriod>never</ror:updatePeriod>
+      <ror:sortOrder>1</ror:sortOrder>
+      <ror:resourceOf>sitemap</ror:resourceOf>
+    </item>
+
+  </channel>
+</rss>

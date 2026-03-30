@@ -1,0 +1,88 @@
+---
+interface Props {
+  post: {
+    title: string;
+    description?: string;
+    thumb?: string;
+    url: string;
+  };
+  index: number;
+}
+
+const { post, index } = Astro.props;
+
+const heroImage = post.thumb;
+const isOdd = index % 2 === 0;
+---
+
+<div class="container" data-layout={isOdd ? "left" : "right"}>
+
+  <section class="post">
+    <a href={post.url} class="title">{post.title}</a>
+    <p class="description">{post.description}</p>
+    <a href={post.url}>Lees verder</a>
+  </section>
+
+  <section class="hero">
+    {heroImage && <img src={heroImage} alt="" />}
+  </section>
+</div>
+
+<hr />
+
+
+<style lang="scss">
+  @use '../styles/breakpoints' as *;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    @include bp(md) {
+      flex-direction: row;
+      gap: 0.5em;
+    }
+  }
+
+  .hero { order: 1; }
+  .post { order: 2; }
+
+  @include bp(md) {
+    .hero { flex: 2; }
+    .post { flex: 5; }
+
+    .container[data-layout="left"] {
+      .hero { order: 2; }
+      .post { order: 1; }
+    }
+  }
+
+  section {
+    padding-left: 2px;
+  }
+
+  hr {
+    height: 1px;
+    margin: 1em 0;
+    border: solid 1px #f0f0f0;
+  }
+
+  .post {
+    @include bp(md) {
+      font-size: 0.9em;
+    }
+  }
+
+  .post .title {
+    font-weight: 600;
+  }
+
+  .post .description {
+    padding-bottom: 1em;
+  }
+
+  .hero img {
+    width: 100%;
+  }
+</style>

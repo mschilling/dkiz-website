@@ -1,0 +1,11 @@
+---
+import Page from '../../../../../layouts/Page.astro';
+---
+<Page title="Weekdag bepalen">
+  <h2>Weekdag bepalen</h2>
+  <p>Welke dag van de week was 1 januari 2000? Selecteer een datum en druk op Start om de weekdag te bepalen.</p>
+  <weekday-calculator></weekday-calculator>
+</Page>
+<script>
+  import '../../../../../components/lit/WeekdayCalculator.js';
+</script>

@@ -1,0 +1,79 @@
+---
+interface Props {
+  title: string;
+  imageUrl: string;
+  link: string;
+  index: number;
+}
+
+const { title, imageUrl, link, index } = Astro.props;
+
+const isOdd = index % 2 === 0;
+---
+
+<div class="container" data-layout={isOdd ? "left" : "right"}>
+
+  <section class="post">
+    <a href={link} class="title">{title}</a>
+    <p class="description">
+      <slot />
+    </p>
+  </section>
+
+  <section class="hero">
+    <a href={link} class="title"><img src={imageUrl} alt="" /></a>
+  </section>
+</div>
+
+<hr />
+
+
+<style lang="scss">
+  @use '../styles/breakpoints' as *;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    @include bp(md) {
+      flex-direction: row;
+      gap: 0.5em;
+    }
+  }
+
+  .hero { order: 1; }
+  .post { order: 2; }
+
+  @include bp(md) {
+    .hero { flex: 2; }
+    .post { flex: 5; }
+
+    .container[data-layout="left"] {
+      .hero { order: 2; }
+      .post { order: 1; }
+    }
+  }
+
+  section {
+    padding-left: 2px;
+  }
+
+  hr {
+    height: 1px;
+    margin: 1em 0;
+    border: solid 1px #f0f0f0;
+  }
+
+  .post .title {
+    font-weight: 600;
+  }
+
+  .post .description {
+    padding-bottom: 1em;
+  }
+
+  .hero img {
+    width: 100%;
+  }
+</style>

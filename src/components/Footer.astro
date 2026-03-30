@@ -1,0 +1,74 @@
+---
+const copyYear = new Date().getFullYear();
+---
+
+<div class="container">
+
+  <div class="navbot">
+    <span>Meest gelezen:</span>
+    <a href="/handig/2008/06/huidig_weeknummer/">Weeknummer deze week</a>
+    <a href="/articles/2007/03/emailadres-aanmaken/">Nieuw e-mailadres aanmaken</a>
+    <a href="/articles/2007/09/msn-messenger-emoticons/">MSN emoticons opslaan of exporteren</a>
+    <a href="/articles/2007/09/verjaardagskaartje-versturen/">Gratis verjaardagskaartje versturen</a>
+    <a href="/articles/2007/12/hoe-bestel-ik-mijn-boeken-online/">Online boeken bestellen</a>
+    <a href="/artikelen/2007/12/hoe-registreer-ik-een-domeinnaam/">Eigen domeinnaam registeren</a>
+    <a href="/artikelen/2008/03/hoe-maak-ik-gratis-visitekaartjes/">Ontwerp je eigen visitekaartjes</a>
+    <a href="/artikelen/2009/05/leer-dansen-maak-choreografie/">Leer dansen en choreografie maken</a>
+    <a href="/artikelen/2010/06/gitaar-leren-spelen-voor-beginners/">Gratis gitaarles voor beginners</a>
+    <a href="/artikelen/2011/01/verdien-geld-met-je-website/">Verdien geld met je blog of website</a>
+    <a href="/artikelen/2011/09/affiliate-marketing-voor-beginners/">Affiliate marketing voor beginners</a>
+    <a href="/artikelen/2011/10/beginnersgitaar-selecteren-en-kopen/">Beginnersgitaar uitzoeken</a>
+    <a href="/artikelen/2013/12/email-synchroniseren-met-gmail-en-imap/">Synchroniseer je email met je telefoon en tablet</a>
+    <a href="/artikelen/2008/03/start-je-eigen-parfumhandel/">Start vandaag nog met je eigen parfumhandel</a>
+    <a href="/artikelen/2008/03/gratis-anoniem-telefoonnummer-aanvragen/">Vraag een anoniem telefoonnummer aan</a>
+    <a href="/artikelen/2008/09/educatie-over-diamanten/">Diamanten educatie - Weet wat je koopt</a>
+    <a href="/artikelen/2008/10/juiste-baan-vinden-via-internet/">De juiste baan zoeken via Internet</a>
+    <a href="/artikelen/2024/11/genereer-je-eigen-podcast-met-notebooklm/">Genereer je eigen podcast met NotebookLM</a>
+  </div>
+
+  <div class="credits">Copyright &copy; 2006-{copyYear} by DatKanIkZelf <img src="/king.gif" alt="" /></div>
+
+</div>
+
+<style>
+
+.container {
+  text-align: center;
+}
+
+.navbot {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  gap: 0.1em;
+  padding: 1.2em;
+  font-size: 0.9em;
+  background: var(--color-bg);
+}
+
+.navbot a, .navbot span {
+  display: block;
+  padding: 0.5em;
+}
+
+.credits {
+  padding: 0.7em;
+  font-size: 0.8rem;
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.credits > img {
+  display: inline;
+  vertical-align:text-bottom;
+  border: unset;
+}
+
+@media all and (min-width: 600px) {
+  .navbot {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+
+</style>

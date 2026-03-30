@@ -1,0 +1,15 @@
+---
+import Page from '../../../../../layouts/Page.astro';
+import AdsenseInArticle from '../../../../../components/ads/AdSenseInArticle.astro';
+---
+<Page title="Leeftijd uitrekenen">
+  <h2>Leeftijd uitrekenen</h2>
+  Hoe oud was papa ook alweer? Met deze feature kan je even snel een leeftijd berekenen.<br /><br />
+  <age-calculator></age-calculator>
+  <h2>Hoe te gebruiken?</h2>
+  <p>Stap 1: Voer bij het veld geboortedatum een geldige datum in. <br />Stap 2: druk op Start.</p>
+  <AdsenseInArticle />
+</Page>
+<script>
+  import '../../../../../components/lit/AgeCalculator.js';
+</script>

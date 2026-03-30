@@ -1,0 +1,92 @@
+@use 'breakpoints' as *;
+
+:is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 1.38rem;
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--color-primary);
+
+  padding-bottom: 2px;
+  border-bottom: #ccc 1px dotted;
+  margin-bottom: 2px;
+}
+
+@include bp(md) {
+  :is(h1, h2) {
+    max-width: 40ch;
+  }
+}
+
+:is(h2, h3):not(:first-child) {
+  margin-top: 3rem;
+}
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  @include bp(md) {
+    font-size: 1.9em;
+  }
+}
+
+h2 {
+  font-size: 1.2rem;
+
+  @include bp(md) {
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 1.1em;
+}
+
+a {
+  color: var(--color-link);
+  font-weight: 400;
+  text-underline-offset: 0.08em;
+  text-decoration: none;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+aside.aside li > a,
+footer.footer li > a {
+  font-size: 1.3em;
+  display: block;
+  min-height: 45px;
+
+  @include bp(md) {
+    font-size: unset;
+    display: unset;
+    min-height: unset;
+  }
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 0.25em;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.small {
+  font-size: 0.8em;
+}
