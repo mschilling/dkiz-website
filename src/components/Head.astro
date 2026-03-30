@@ -27,7 +27,7 @@ const page = {
   keywords: pageKeywords,
 };
 
-const siteUrl = 'https://www.datkanikzelf.nl';
+const siteUrl = Astro.site?.origin ?? (() => { throw new Error('Astro.site is not defined. Set the `site` option in astro.config.mjs.'); })();
 const canonical = canonicalUrl ?? new URL(Astro.url.pathname, siteUrl).href;
 const ogImageUrl = ogImage ? new URL(ogImage, siteUrl).href : undefined;
 ---

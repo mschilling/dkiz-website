@@ -1,6 +1,13 @@
 import rss from '@astrojs/rss';
 import type { APIContext } from 'astro';
 import { getCollection } from 'astro:content';
+import { DateTime } from 'luxon';
+
+function parseDate(dateStr: string): Date {
+  // Parse with explicit CET timezone to avoid environment-dependent results
+  const dt = DateTime.fromISO(dateStr, { zone: 'Europe/Amsterdam' });
+  return dt.toJSDate();
+}
 
 export async function GET(context: APIContext) {
   const artikelen = await getCollection('artikelen');
@@ -10,13 +17,13 @@ export async function GET(context: APIContext) {
     ...artikelen.map((post) => ({
       title: post.data.title,
       description: post.data.description ?? '',
-      pubDate: new Date(post.data.publishDate),
+      pubDate: parseDate(post.data.publishDate),
       link: `/artikelen/${post.id}/`,
     })),
     ...articles.map((post) => ({
       title: post.data.title,
       description: post.data.description ?? '',
-      pubDate: new Date(post.data.publishDate),
+      pubDate: parseDate(post.data.publishDate),
       link: `/articles/${post.id}/`,
     })),
   ].sort((a, b) => b.pubDate.getTime() - a.pubDate.getTime());
