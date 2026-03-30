@@ -40,8 +40,8 @@ jobs:
 
       - name: Deploy to live
         if: inputs.preview_channel == ''
-        run: firebase deploy --only hosting:datkanikzelf
+        run: firebase deploy --only hosting:datkanikzelf --project datkanikzelf
 
       - name: Deploy to preview channel
         if: inputs.preview_channel != ''
-        run: firebase hosting:channel:deploy ${{ inputs.preview_channel }} --only datkanikzelf --expires 7d
+        run: firebase hosting:channel:deploy ${{ inputs.preview_channel }} --only datkanikzelf --project datkanikzelf --expires 7d
