@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "arkid-dkiz-website-test",
+    "site": "datkanikzelf",
     "public": "dist",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "redirects": [
