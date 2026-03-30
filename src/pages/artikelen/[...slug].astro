@@ -22,7 +22,7 @@ const { Content } = await render(post);
   keywords={post.data.keywords}
   publishDate={post.data.publishDate}
   author={post.data.author}
-  heroImage={post.data.heroImage || post.data.thumb}
+  heroImage={post.data.heroImage}
   alt={post.data.alt}
 >
   <Content />
