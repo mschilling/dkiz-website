@@ -10,9 +10,10 @@ interface Props {
   title?: string;
   description?: string;
   keywords?: string;
+  ogImage?: string;
 }
 
-const { title, description, keywords } = Astro.props;
+const { title, description, keywords, ogImage } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -23,6 +24,7 @@ const { title, description, keywords } = Astro.props;
       pageTitle={title}
       pageDescription={description}
       pageKeywords={keywords}
+      ogImage={ogImage}
      />
   </head>
 

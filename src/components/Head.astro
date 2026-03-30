@@ -16,14 +16,20 @@ interface Props {
   pageTitle?: string;
   pageDescription?: string;
   pageKeywords?: string;
+  ogImage?: string;
+  canonicalUrl?: string;
 }
-const { pageTitle, pageDescription, pageKeywords } = Astro.props;
+const { pageTitle, pageDescription, pageKeywords, ogImage, canonicalUrl } = Astro.props;
 
 const page = {
   title: pageTitle ?? meta.page.title,
   description: pageDescription ?? meta.page.description,
   keywords: pageKeywords,
 };
+
+const siteUrl = Astro.site?.origin ?? (() => { throw new Error('Astro.site is not defined. Set the `site` option in astro.config.mjs.'); })();
+const canonical = canonicalUrl ?? new URL(Astro.url.pathname, siteUrl).href;
+const ogImageUrl = ogImage ? new URL(ogImage, siteUrl).href : undefined;
 ---
 
 <meta charset="utf-8" />
@@ -35,17 +41,38 @@ const page = {
 <meta name="description" content={page.description} />
 {pageKeywords && <meta name="keywords" content={page.keywords} />}
 
+<!-- Canonical -->
+<link rel="canonical" href={canonical} />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content={canonical} />
+<meta property="og:title" content={page.title} />
+<meta property="og:description" content={page.description} />
+<meta property="og:locale" content="nl_NL" />
+<meta property="og:site_name" content="DatKanIkZelf.nl" />
+{ogImageUrl && <meta property="og:image" content={ogImageUrl} />}
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content={ogImageUrl ? "summary_large_image" : "summary"} />
+<meta name="twitter:title" content={page.title} />
+<meta name="twitter:description" content={page.description} />
+{ogImageUrl && <meta name="twitter:image" content={ogImageUrl} />}
+
+<!-- RSS Autodiscovery -->
+<link rel="alternate" type="application/rss+xml" title="DatKanIkZelf.nl" href="/feed.xml" />
+
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;700&display=swap" />
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=UA-1675989-1"></script>
+<!-- Google Analytics (GA4) -->
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-Q2H67XZPWY"></script>
 <script is:inline>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-1675989-1');
+  gtag('config', 'G-Q2H67XZPWY');
 </script>
 
 <!-- Google AdSense -->
